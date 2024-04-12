@@ -1,0 +1,29 @@
+@keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  h1 {
+    overflow: hidden; /* Ensures the typing effect */
+    border-right: 2px solid white; /* Cursor effect */
+    white-space: nowrap; /* Prevents wrapping */
+    animation: typing 2s steps(40, end); /* Adjust duration as needed */
+  }
+  
+
+@keyframes waveAnimation {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%); /* Adjust the distance the wave travels */
+  }
+}
+
+.wave-container img:last-child {
+  animation-duration: 5s; /* Adjust the duration for faster movement */
+}

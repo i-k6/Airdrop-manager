@@ -1,0 +1,39 @@
+/* App.css */
+
+body {
+  background: linear-gradient(135deg, #a7d7f5, #bdc3c7); /* Gradient from water blue to gray */
+  overflow: hidden; /* Hide overflowing content */
+}
+
+.cloud {
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white color */
+  border-radius: 50%;
+  animation: cloudMove 20s linear infinite alternate; /* Adjust animation duration and timing */
+}
+
+@keyframes cloudMove {
+  0% {
+    left: -200px;
+  }
+  100% {
+    left: calc(100% + 200px);
+  }
+}
+
+.nav-link {
+  color: #4B5563;
+  padding: 8px 12px;
+  border-radius: 9999px;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #CBD5E0;
+  color: #4B5563;
+}
