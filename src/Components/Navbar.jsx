@@ -24,12 +24,11 @@ function Navbar() {
       <div className="max-w-6xl mx-auto">
         <div className="flex items-center h-16 rounded-full bg-gradient-to-r from-transparent to-transparent" style={{ backdropFilter: 'blur(10px)' }}>
           <div className="flex-shrink-0 ml-4">
-            <span className="text-white">Fm</span> {/* Change logo to "Fm" */}
+            <span className="text-white">AM</span> {/* Change logo to "Fm" */}
           </div>
           <div className="flex flex-grow justify-center">
             <Link to="/" className="nav-link">Home</Link>
             <Link to="/dailylist" className="nav-link">Dailytask</Link>
-            <Link to="" className="nav-link">Projects</Link>
             <Link to="/earnings" className="nav-link">Earnings</Link>
           </div>
         </div>
